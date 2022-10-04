@@ -1,0 +1,250 @@
+nav{
+    background: black;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 12; /* To bring to front */
+}
+
+nav .menu{
+    max-width: 1050px;
+    background: black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 12px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    background: red;
+    padding: 5px 8px;
+    border-radius: 9px;
+    transition: all 0.2s ease;
+
+}
+
+.menu ul li a:hover{
+    background: white;
+    color: black;
+
+}
+
+.img{
+    background: url(https://w0.peakpx.com/wallpaper/61/194/HD-wallpaper-arsenal-logo-in-black-wall-bakground-arsenal.jpg) no-repeat;
+    height: 120vh;
+    width: 100%;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+}
+
+.img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.);
+}
+
+.img .centering{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+}
+
+.img .identification{
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 180px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+/* 
+Image in stats.html */
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    width: 100%;
+    transform: translate(-50% , -50%);
+    background: black;
+    opacity: 0.8;
+    padding: 8px 8px;
+    text-align: center;
+}
+
+.center .title{
+    color: white;
+    font-size: 45px;
+    font-weight: 450px;
+    /* margin-bottom: -150px; */
+}
+
+.center .title1{
+    color: white;
+    font-size: 45px;
+    font-weight: 450px;
+    margin-bottom: -150px;
+}
+
+.center .minititle{
+    color: white;
+    font-size: 30px;
+    font-weight: 250px;
+}
+
+/*about arsenal page*/
+.center .title2{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 180px;
+}
+
+.center .title3{
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 180px;
+}
+
+.center .btns{
+    margin-top: -180px;
+
+}
+
+table.c, td, th{
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 10px;
+    border-style: groove;
+    table-layout: auto;
+    width: auto;
+    color: white;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    
+
+th, td{
+    padding: 15px;
+}
+
+h3{
+    color: white;
+    text-align: left;
+    margin-left: 13%;
+}
+
+h4{
+    color: white;
+    margin-top: 20%;
+    margin-bottom: -150px;
+    font-size: 40px;
+    padding: 13px 0;
+}
+
+.center .btns button{
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 350;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.center .btns button:first-child{
+    color: white;
+    background: white;
+
+}
+
+.center .btns button:first-child:hover{
+    background: black;
+    color: black;
+}
+
+.center .btns button:nth-last-child(2){
+    color: white;
+    background: white;
+
+}
+
+.center .btns button:nth-last-child(2):hover{
+    background: black;
+    color: black;
+}
+
+.center .btns button:last-child{
+    color: black;
+    background: white;
+}
+
+.center .btns button:last-child:hover{
+    background: black;
+    color: black;
+}
